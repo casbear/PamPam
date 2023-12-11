@@ -7,7 +7,7 @@ export const HomePage: React.FC<HomePageScreenProps> = (props) => {
     return (
         <View style={styles.container}>
             <Text>home page jd</Text>
-            <Button title="todo" onPress={() => props.navigation.push("ToDo")} />
+            <Button title="todo" onPress={() => props.navigation.push("ToDo")}/>
         </View>
     );
 }
